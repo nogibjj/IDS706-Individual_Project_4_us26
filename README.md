@@ -1,6 +1,6 @@
 # Auto Scaling Flask App Using Azure App Services
 
-## About Hugging Face Model Integration
+## Hugging Face Model Integration
 
 The Flask web application (`app.py`) integrates a sentiment analysis model provided by Hugging Face's Transformers library. This model is used to analyze the sentiment of text input by users.
 
