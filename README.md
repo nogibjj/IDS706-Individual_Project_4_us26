@@ -32,7 +32,7 @@ This application uses a pre-trained sentiment analysis model, but Hugging Face o
 
 ### 3. Azure Login
 
-az login
+      - az login
 
 ### 4. Deploy to Azure App Service
 
