@@ -21,19 +21,19 @@ This application uses a pre-trained sentiment analysis model, but Hugging Face o
 ### Working of the app
 
 <p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/1.png" alt="2">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/1.png" alt="2">
 </p>	
 
 <p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/2.png" alt="2">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/2.png" alt="2">
 </p>	
 
 <p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/3.png" alt="2">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/3.png" alt="2">
 </p>	
 
 <p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/4.png" alt="2">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/4.png" alt="2">
 </p>	
 
 
@@ -63,7 +63,7 @@ Replace <YOUR_APP_NAME> with your app name and <YOUR_REGION> with your desired A
       - https://<YOUR_APP_NAME>.azurewebsites.net
 
 <p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/5.png" alt="2">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/5.png" alt="2">
 </p>	
 
 
