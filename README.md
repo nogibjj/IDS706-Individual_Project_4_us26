@@ -1,4 +1,4 @@
-# Auto Scaling Flask App Using Any Serverless Platform
+# Auto Scaling Flask App Using Azure App Services
 
 ## About Hugging Face Model Integration
 
