@@ -3,17 +3,15 @@ install:
 		pip install --prefer-binary -r requirements.txt
 
 test:	
-	python -m py.test --nbval main.ipynb 
+	python -m pytest -vv --cov=main *.py
 
 format:
-	nbqa black main.ipynb
+	black *.py
+	
 lint:
-	nbqa ruff main.ipynb
+	ruff *.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
-
-deploy:
-	#deploy goes here
 
 all: install test format lint
