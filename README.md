@@ -21,16 +21,14 @@ This application uses a pre-trained sentiment analysis model, but Hugging Face o
 
 ## Prerequisites
 
-- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) installed on your machine.
+      - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) 
 
 ## Steps
 
 
-
 ### 2. Configure Flask App
-Install required libraries:
 
-pip install flask transformers
+      - pip install flask transformers
 
 ### 3. Azure Login
 
@@ -38,12 +36,13 @@ az login
 
 ### 4. Deploy to Azure App Service
 
-az webapp up --sku F1 --name <YOUR_APP_NAME> --location <YOUR_REGION>
+      - az webapp up --sku F1 --name <YOUR_APP_NAME> --location <YOUR_REGION>
 
 Replace <YOUR_APP_NAME> with your app name and <YOUR_REGION> with your desired Azure region.
 
 ### 5. Access Your Web App
-https://<YOUR_APP_NAME>.azurewebsites.net
+
+      - https://<YOUR_APP_NAME>.azurewebsites.net
 
 ## HTML Templates
 
@@ -69,11 +68,7 @@ The `result.html` template is used to display the sentiment analysis result. It 
 These HTML templates are used in conjunction with the Flask routes in `app.py` to render the user interface and display analysis results to the end-user.
 
 
-
-
-### CI/CD Automation files
-
-
+### 6. CI/CD Automation files
 
 
 .github/workflows - This directory in a Python project (or any GitHub repository) is used for creating and storing GitHub Actions workflows. GitHub Actions is a continuous integration and continuous delivery                           (CI/CD) platform provided by GitHub. The workflow is triggered on pushes to the main branch. It sets up :
