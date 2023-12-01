@@ -18,6 +18,24 @@ The relevant code snippets in `app.py` demonstrate how the model is loaded and u
 
 This application uses a pre-trained sentiment analysis model, but Hugging Face offers various pre-trained models for different natural language processing tasks. Users can explore and choose different models based on their specific requirements by modifying the model loading code in `app.py`.
 
+### Working of the app
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/1.png" alt="2">
+</p>	
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/2.png" alt="2">
+</p>	
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/3.png" alt="2">
+</p>	
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/4.png" alt="2">
+</p>	
+
 
 ## Prerequisites
 
@@ -43,6 +61,11 @@ Replace <YOUR_APP_NAME> with your app name and <YOUR_REGION> with your desired A
 ### 5. Access Your Web App
 
       - https://<YOUR_APP_NAME>.azurewebsites.net
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS-Week12_MiniProject_us26/blob/main/images/5.png" alt="2">
+</p>	
+
 
 ## HTML Templates
 
