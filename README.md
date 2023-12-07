@@ -38,6 +38,23 @@ This application uses a pre-trained sentiment analysis model, but Hugging Face o
   <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/4.png" alt="2">
 </p>	
 
+## Deploying Flask App to Docker Hub
+
+#### Build the Docker image:
+    - docker build -t my-flask-app .
+
+#### Run the Docker container locally:
+    - docker run -p 5000:5000 my-flask-app
+
+### Deploying to Docker Hub
+    - docker login
+    - docker tag my-flask-app username/my-flask-app:latest
+    - docker push username/my-flask-app:latest
+
+
+<p align="center">
+  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/6.png" alt="2">
+</p>	
 
 ## Prerequisites
 
